@@ -1,0 +1,11 @@
+input.onPinPressed(TouchPin.P0, function () {
+    basic.showNumber(randint(0, 25))
+    basic.showString("No Love")
+    basic.showNumber(randint(26, 50))
+    basic.showString("Love")
+    basic.showNumber(randint(51, 75))
+    basic.showString("Brokenhearted Love")
+    basic.showNumber(randint(76, 100))
+    basic.showString("Fiery Hot Love")
+})
+basic.showString("Love Meter")
